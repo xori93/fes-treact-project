@@ -27,6 +27,34 @@
             <li><a href="#" class="nav__link">Login</a></li>
             <li><a href="#" class="nav__link--primary">Sign Up</a></li>
           </ul>
+          <button class="btn__menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close">
+              <i class="fa-solid fa-x"></i>
+            </button>
+          </div>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Pricing</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Contact Us</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Login</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Login</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </section>
@@ -403,9 +431,9 @@
                 </p>
 
                 <div class="testimonial__bottom">
+                  <img src="./assets/photo-1494790108377-be9c29b29330.avif" alt="" class="testimonial__img--bottom">
                   <div class="testimonial__bottom--info">
                     <div class="testimonial__details">
-                      <img src="./assets/photo-1494790108377-be9c29b29330.avif" alt="" class="testimonial__img--bottom">
                       <div class="testimonials__detail">
                         <h3 class="testimonials__info--title">Charlotte Hale</h3>
                         <p class="testimonials__info--title--para">
@@ -418,6 +446,7 @@
                       <button class="arrow__left--btn">
                         <i class="fa-solid fa-arrow-left-long"></i>
                       </button>
+                      <div class="testimonial__line"></div>
                       <button class="arrow__right--btn">
                         <i class="fa-solid fa-arrow-right"></i>
                       </button>
@@ -431,14 +460,15 @@
 
       <section id="started">
         <div class="started__container">
-          <div class="row started__row">
-            <h3 class="started__para">Developers all over the world are happily using Treact.</h3>
+          <h3 class="started__para">Developers all over the world are happily using Treact.</h3>
+          <div class="started__container--buttons">
             <button class="started__get-started--btn">Get Started</button>
             <button class="contact-us__btn">Contact Us</button>
-          </div>
+          </div>   
         </div>
       </section>
     </main>
+
     <footer id="footer">
       <div class="footer__container">
         <div class="row footer__row">
@@ -483,7 +513,7 @@
         <div class="footer__bottom">
           <div class="footer__logo">
             <img src="assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" class="footer__logo--img" alt="">
-            <h5>Treact Inc</h5>
+            <h5 class="logo__name">Treact Inc</h5>
           </div>
           <p class="copyright">
             &copy; 2018 Treact Inc. All Rights Reserved
