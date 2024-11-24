@@ -13,15 +13,17 @@
 
 
 .nav__row {
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
+  /* height: 80px;/ */
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin-top: 32px; */
+  height: 80px;
 }
 
 .row {
@@ -34,7 +36,7 @@ nav {
   display: flex;
   align-items: center;
   /* margin: 8px 0; */
-  /* padding-bottom: 4px ; */
+  /* padding-bottom: 4px ;/ */
 }
 
 .nav__logo--img {
@@ -50,11 +52,15 @@ nav {
 }
 
 ul {
-  /* display: flex; */
+  display: flex;
 }
 
 li {
   list-style: none;
+}
+
+.nav__links {
+  margin-top: 28px;
 }
 
 .nav__link {
