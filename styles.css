@@ -1002,6 +1002,13 @@ Footer
   font-size: 24px
 }
 
+.footer__columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .footer__column {
   display: flex;
   flex-direction: column;
