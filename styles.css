@@ -1323,8 +1323,7 @@ Footer
 
  .testimonials__img--wrapper {
   width: 100%;
-  max-width: 470px;
-  
+  max-width: 448px;
  }
 
  .testimonials__img {
@@ -1496,6 +1495,19 @@ Footer
     width: 100%;
   }
 
+  .testimonials__img--wrapper {
+    width: 100%;
+    max-width: 440px;
+    align-items: center;
+   }
+
+   .testimonials__img {
+    width: 100%;
+   }
+
+   #started {
+    padding: 30px 30px;
+   }
 
   .started__container {
     align-items: center;
