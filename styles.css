@@ -114,15 +114,24 @@ HEADER
 */
 
 header {
-  height: calc(100vh - 60px);
-  padding: 0 64px;
+  /* height: calc(100vh - 60px); */
+  /* height: 500px; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 40px; */
+  
 }
 
-.container {
-  /* padding: 0 24px; */
+
+
+.header__container {
+  padding: 0 64px;
+}
+
+.header__row {
+  /* margin-bottom: 20px; */
 }
 
 .header__description {
@@ -135,7 +144,7 @@ header {
 
 .header__wrap {
   display: flex;
-  margin-top: 250px;
+  /* margin-top: 250px; */
 }
 
 .header__title {
@@ -247,9 +256,13 @@ fEATURES
 
 */
 
+#features {
+  /* margin-bottom: 100px; */
+  margin-top: 110px;
+}
+
 .features__container {
   padding: 0 24px;
-  margin-top: 300px;
 }
 
 .feature__service {
@@ -257,6 +270,7 @@ fEATURES
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .features__tag {
